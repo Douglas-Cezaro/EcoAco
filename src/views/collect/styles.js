@@ -135,4 +135,11 @@ export const Styles = StyleSheet.create({
     zIndex: 1,
     elevation: 10,
   },
+  PetalaStyle: {
+    shadowColor: "#000",
+    shadowOffset: { width: 1, height: 3 },
+    shadowOpacity: 1,
+    shadowRadius: 3,
+    zIndex: 1,
+  },
 });

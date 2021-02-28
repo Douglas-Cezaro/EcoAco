@@ -48,7 +48,7 @@ export default function Collect() {
 
   return (
     <Container>
-      <HeaderArea style={{ zIndex: 1 }}>
+      <HeaderArea style={(Styles.PetalaStyle, { elevation: 10, zIndex: 1 })}>
         <HeaderContent>
           <HeaderBack onPress={handleBack}>
             <AntDesign name="left" size={30} color="white" />

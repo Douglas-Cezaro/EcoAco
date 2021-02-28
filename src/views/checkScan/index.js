@@ -11,6 +11,7 @@ import {
   Title,
   Petala,
   PetalaText,
+  Styles,
 } from "./styles";
 
 export default function CheckScan() {
@@ -22,9 +23,15 @@ export default function CheckScan() {
     });
   };
 
+  const handlerHome = () => {
+    navigation.reset({
+      routes: [{ name: "Home" }],
+    });
+  };
+
   return (
     <Container>
-      <HeaderArea>
+      <HeaderArea style={(Styles.PetalaStyle, { elevation: 10, zIndex: 1 })}>
         <HeaderContent>
           <HeaderBack onPress={handleBack}>
             <AntDesign name="left" size={30} color="white" />
@@ -38,7 +45,7 @@ export default function CheckScan() {
           pontos adquirido nessa sessão!
         </Title>
       </ContainerTitle>
-      <Petala>
+      <Petala onPress={handlerHome}>
         <PetalaText>Pontos</PetalaText>
         <PetalaText style={{ fontSize: 50 }}>25</PetalaText>
       </Petala>

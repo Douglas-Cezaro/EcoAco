@@ -75,3 +75,13 @@ export const PetalaText = styled.Text`
   font-size: 25px;
   font-weight: bold;
 `;
+// !Style para fazer shadow do button
+export const Styles = StyleSheet.create({
+  PetalaStyle: {
+    shadowColor: "#000",
+    shadowOffset: { width: 1, height: 3 },
+    shadowOpacity: 1,
+    shadowRadius: 3,
+    zIndex: 1,
+  },
+});

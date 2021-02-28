@@ -11,17 +11,19 @@ import Store from "../views/store";
 import Collect from "../views/collect";
 import QrCode from "../views/qrCode";
 import CheckScan from "../views/checkScan";
+import Preload from "../views/preload";
 
 const Stack = createStackNavigator();
 
 export default () => (
   <NavigationContainer>
     <Stack.Navigator
-      initialRouteName="Home"
+      initialRouteName="Preload"
       screenOptions={{
         headerShown: false,
       }}
     >
+      <Stack.Screen name="Preload" component={Preload} />
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Crafts" component={Crafts} />
