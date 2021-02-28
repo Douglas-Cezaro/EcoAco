@@ -9,6 +9,8 @@ import History from "../views/history";
 import Schedule from "../views/schedule";
 import Store from "../views/store";
 import Collect from "../views/collect";
+import QrCode from "../views/qrCode";
+import CheckScan from "../views/checkScan";
 
 const Stack = createStackNavigator();
 
@@ -27,6 +29,8 @@ export default () => (
       <Stack.Screen name="Schedule" component={Schedule} />
       <Stack.Screen name="Store" component={Store} />
       <Stack.Screen name="Collect" component={Collect} />
+      <Stack.Screen name="QrCode" component={QrCode} />
+      <Stack.Screen name="CheckScan" component={CheckScan} />
     </Stack.Navigator>
   </NavigationContainer>
 );

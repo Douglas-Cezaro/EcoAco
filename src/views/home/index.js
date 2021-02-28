@@ -66,7 +66,7 @@ export default function Home() {
       <HeaderArea style={(Styles.PetalaStyle, { elevation: 10 })}>
         <HeaderImage source={ImageProfile} />
         <HeaderText>Jane</HeaderText>
-        <HeaderText>San francisco, ca</HeaderText>
+        <HeaderText>Volta Redonda, RJ</HeaderText>
       </HeaderArea>
       <ContainerScore>
         <ScoreText>PONTOS</ScoreText>
