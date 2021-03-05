@@ -10,7 +10,7 @@ export default function Preload() {
 
   const handlerHome = () => {
     navigation.reset({
-      routes: [{ name: "Home" }],
+      routes: [{ name: "Login" }],
     });
   };
 

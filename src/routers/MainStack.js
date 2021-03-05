@@ -20,7 +20,7 @@ const Stack = createStackNavigator();
 export default () => (
   <NavigationContainer>
     <Stack.Navigator
-      initialRouteName="Register"
+      initialRouteName="Preload"
       screenOptions={{
         headerShown: false,
       }}

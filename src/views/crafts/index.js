@@ -69,7 +69,7 @@ export default function Crafts() {
         </CardProduct>
       </ContainerProducts>
       <ButtonAdd onPress={handleAdd}>
-        <FontAwesome name="plus" size={50} color="white" />
+        <FontAwesome name="plus" size={30} color="white" />
       </ButtonAdd>
     </Container>
   );

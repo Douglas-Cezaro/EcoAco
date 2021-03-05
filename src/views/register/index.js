@@ -24,7 +24,7 @@ export default function Register() {
 
   const handleBack = () => {
     navigation.reset({
-      routes: [{ name: "Home" }],
+      routes: [{ name: "Login" }],
     });
   };
 
