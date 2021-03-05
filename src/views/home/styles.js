@@ -9,8 +9,8 @@ export const Container = styled.View`
 `;
 
 export const HeaderArea = styled.View`
-  position: absolute;
-  top: -310px;
+  /* position: absolute; */
+  top: -670px;
   width: 1000px;
   height: 550px;
   border-bottom-left-radius: 500px;
@@ -39,13 +39,14 @@ export const HeaderText = styled.Text`
 export const ContainerScore = styled.View`
   height: 150px;
   width: 150px;
-  top: -40px;
+  top: -240px;
   border-radius: 75px;
   /* primary-green-medium */
 
   background: #88bf0f;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 `;
 
 export const ScoreText = styled.Text`
@@ -63,7 +64,7 @@ export const ContainerPetalas = styled.View`
 export const PetalaStore = styled.TouchableOpacity`
   width: 240px;
   height: 150px;
-  left: 150px;
+  right: 80px;
   bottom: 30px;
   /* primary-green-medium */
   background: #88bf0f;
@@ -87,11 +88,10 @@ export const ContainerIconStore = styled.View`
 `;
 
 export const PetalaSchedule = styled.TouchableOpacity`
-  position: absolute;
   width: 240px;
   height: 150px;
-  left: 150px;
-  bottom: 150px;
+  right: 80px;
+  bottom: 10px;
   /* primary-green-dark */
 
   background: #03a678;
@@ -112,6 +112,14 @@ export const ContainerIconSchedule = styled.View`
   transform: rotate(40deg);
   top: 90px;
   left: 70px;
+`;
+
+export const PetalaUp = styled.View`
+  flex-direction: row;
+`;
+
+export const PetalaDown = styled.View`
+  flex-direction: row;
 `;
 
 export const PetalaCrafts = styled.TouchableOpacity`
@@ -147,11 +155,9 @@ export const ContainerIconCrafts = styled.TouchableOpacity`
 `;
 
 export const PetalaHistory = styled.TouchableOpacity`
-  position: absolute;
   width: 240px;
   height: 150px;
-  top: 130px;
-  left: 50px;
+  left: 30px;
   /* primary-green-dark */
 
   background: #03a678;
@@ -165,13 +171,13 @@ export const PetalaHistoryTitle = styled.Text`
   color: #fff;
   font-size: 18px;
   bottom: 60px;
-  left: 15px;
+  right: 5px;
   font-weight: bold;
 `;
 
 export const ContainerIconHistory = styled.View`
   transform: rotate(-130deg);
-  right: 20px;
+  right: 40px;
 `;
 
 export const ContainerMarker = styled.View`

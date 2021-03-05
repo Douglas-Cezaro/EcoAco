@@ -31,7 +31,8 @@ export const HeaderContent = styled.View`
 `;
 
 export const HeaderBack = styled.TouchableOpacity`
-  right: 130px;
+  right: 120px;
+  top: 10px;
   flex-direction: row;
   align-items: center;
 `;

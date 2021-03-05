@@ -11,6 +11,7 @@ import Store from "../views/store";
 import Collect from "../views/collect";
 import QrCode from "../views/qrCode";
 import CheckScan from "../views/checkScan";
+import FormCrafts from "../views/formCrafts";
 import Preload from "../views/preload";
 
 const Stack = createStackNavigator();
@@ -33,6 +34,7 @@ export default () => (
       <Stack.Screen name="Collect" component={Collect} />
       <Stack.Screen name="QrCode" component={QrCode} />
       <Stack.Screen name="CheckScan" component={CheckScan} />
+      <Stack.Screen name="FormCrafts" component={FormCrafts} />
     </Stack.Navigator>
   </NavigationContainer>
 );
