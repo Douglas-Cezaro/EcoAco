@@ -43,11 +43,11 @@ Aplicativo mobile feito com react-native
 
 # Demonstração e Protótipo
 
-- [**Demo completa**](https://www.youtube.com/watch?v=5Ltndx3tsKk)
+- [**Demo completa**](https://youtu.be/QqSDXQOKNKk)
 
 - [**Protótipo**](https://www.figma.com/file/lpmz9kz13CdqpzL6M30pQk/App-A%C3%A7o)
 
-<image align="center" width='220px' height='500px' src="https://user-images.githubusercontent.com/53586466/109422902-2feff680-79bc-11eb-8cc2-f68808708f52.gif" />
+<image align="center" width='220px' height='500px' src="https://user-images.githubusercontent.com/53586466/110164294-e8100b80-7dcf-11eb-8249-3df917d1eaec.gif" />
 
 ###### OBS: Não foi desenvolvido todas as telas devido ao tempo
 
