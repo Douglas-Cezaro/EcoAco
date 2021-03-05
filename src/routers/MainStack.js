@@ -12,6 +12,7 @@ import Collect from "../views/collect";
 import QrCode from "../views/qrCode";
 import CheckScan from "../views/checkScan";
 import FormCrafts from "../views/formCrafts";
+import Register from "../views/register";
 import Preload from "../views/preload";
 
 const Stack = createStackNavigator();
@@ -19,7 +20,7 @@ const Stack = createStackNavigator();
 export default () => (
   <NavigationContainer>
     <Stack.Navigator
-      initialRouteName="Preload"
+      initialRouteName="Register"
       screenOptions={{
         headerShown: false,
       }}
@@ -35,6 +36,7 @@ export default () => (
       <Stack.Screen name="QrCode" component={QrCode} />
       <Stack.Screen name="CheckScan" component={CheckScan} />
       <Stack.Screen name="FormCrafts" component={FormCrafts} />
+      <Stack.Screen name="Register" component={Register} />
     </Stack.Navigator>
   </NavigationContainer>
 );
